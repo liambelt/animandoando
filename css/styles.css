@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../images/music-concert-stage-background-free-vector.jpg);
+  background-size: cover;
+  
+}
+
+span{
+  position: relative;
+  animation: mymove 5s infinite;
+  top: 13rem;
+}
+
+@keyframes mymove{
+  from{left: 0px;}
+  to{left: 40%;}
+}
+
+.alinear{
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+}
